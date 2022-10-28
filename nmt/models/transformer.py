@@ -1,8 +1,8 @@
 import torch
 import torch.nn as nn
 
-import data_loader as data_loader
-from search import SingleBeamSearchBoard
+from nmt import data_loader as data_loader
+from nmt.search import SingleBeamSearchBoard
 
 
 class Attention(nn.Module):
